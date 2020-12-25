@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale.language' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>  
+<b:attr name='xmlns' value=''/>
+<b:attr name='xmlns:b' value=''/>
+<b:attr name='xmlns:data' value=''/>
+<b:attr name='xmlns:expr' value=''/>&lt;head&gt;
+      
+    	<!-- Site Owner -->
+	<meta content='Tian Purba' name='Author'/>
+	<link href='https://www.facebook.com/tiianprb' rel='author'/>
+	<link href='https://www.facebook.com/tianpurbacom' rel='publisher'/>
+	<meta content='' property='article:author'/>
+	<meta content='' property='article:publisher'/>
+	<meta content='' name='twitter:site'/>
+	<meta content='https://www.twitter.com/tiianprb' name='twitter:creator'/>
+    
+	<!-- Theme Color -->
+	<meta content='#191919' name='theme-color'/>
+	<meta content='#191919' name='msapplication-navbutton-color'/>
+	<meta content='#191919' name='apple-mobile-web-app-status-bar-style'/>
+	<meta content='yes' name='apple-mobile-web-app-capable'/>
+      
+    <!-- Blogger Rss -->
+    <meta content='blogger' name='generator'/>
+    <link href='https://www.blogger.com/openid-server.g' rel='openid.server'/>
+    <link expr:href='data:blog.url' rel='openid.delegate'/>
+    <link expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+    <link expr:href='&quot;//www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+    <link expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+  
+    <!-- Open Graph -->
+    <meta content='article' property='og:type'/>
+    <meta content='id_ID' property='og:locale'/>
+    <meta content='en_US' property='og:locale:alternate'/>
+    <meta content='summary_large_image' name='twitter:card'/>
+    
+    <!-- Robots Search -->
+    <meta content='width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=5.0' name='viewport'/>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <meta content='IE=Edge' http-equiv='X-UA-Compatible'/>
+    <meta content='true' name='MSSmartTagsPreventParsing'/>
+    <meta content='index, follow' name='googlebot'/>
+    <meta content='follow, all' name='Googlebot-Image'/>
+    <meta content='follow, all' name='msnbot'/>
+  
+    <!-- Meta Image -->
+    <b:if cond='data:blog.postImageUrl'>
+      <meta expr:content='resizeImage(data:blog.postImageUrl, 0)' property='og:image'/>
+      <b:else/>
+      <meta content='https://1.bp.blogspot.com/-4WsuACBvuMw/X9I1DcTZNfI/AAAAAAAADZ4/722VFm6gmug0A_6jz6NsJrxhb9ngMXTAACLcBGAsYHQ/s320/tian.jpg' property='og:image'/>
+    </b:if>
+    <b:if cond='data:view.isMultipleItems'>
+      <meta content='https://1.bp.blogspot.com/-4WsuACBvuMw/X9I1DcTZNfI/AAAAAAAADZ4/722VFm6gmug0A_6jz6NsJrxhb9ngMXTAACLcBGAsYHQ/s320/tian.jpg' name='twitter:image'/>
+      <b:else/>
+      <meta expr:content='resizeImage(data:blog.postImageUrl, 0)' name='twitter:image'/>
+    </b:if>
+    <b:if cond='data:view.isPost'>
+      <link expr:href='resizeImage(data:blog.postImageUrl, 0)' rel='image_src'/>
+    </b:if>
+  
+    <!-- Meta Description -->
+    <b:if cond='data:blog.metaDescription'>
+      <meta expr:content='data:blog.metaDescription' name='description'/>
+      <meta expr:content='data:blog.metaDescription' property='og:description'/>
+      <meta expr:content='data:blog.metaDescription' name='twitter:description'/>
+      <b:else/>
+      <meta expr:content='data:post.snippet' name='description'/>
+      <meta expr:content='data:post.snippet' property='og:description'/>
+      <meta expr:content='data:post.snippet' name='twitter:description'/>
+    </b:if>
+  
+    <!-- Meta Keywords -->
+    <meta expr:content='data:blog.title + &quot;, &quot; + data:blog.pageName + &quot;, Add_your_addtional_keyword_here &quot;' name='keywords'/>
+    <meta expr:content='data:blog.title' property='article:tag'/>
+  
+    <!-- Site Verification -->
+	<meta content='x94mqkn5R2Uk5O1iwJb6NzOrTMDnrjCwuwje23oHEc4' name='google-site-verification'/>
+	<meta content='' name='msvalidate.01'/>
+	<meta content='' name='p:domain_verify'/>
+	<meta content='' name='majestic-site-verification'/>
+	<meta content='Tian Purba' name='copyright'/>
+    <!-- Font -->
+	<link href='https://fonts.googleapis.com/css2?family=Righteous' rel='stylesheet'/>
+	<link href='https://fonts.googleapis.com/css2?family=Mitr:wght@500' rel='stylesheet'/>
+      
+<title>Tentang : <data:blog.title/></title>
+<b:skin><![CDATA[
+
+body{
+    margin:0;padding:0!important;width:100%;font-family:'Nunito Sans',sans-serif;font-size:14px;color:#48525c;background-color:#fafafc;-webkit-font-smoothing:antialiased;-webkit-transition:all .1s ease;transition:all .1s ease;        
+}
+.bg{
+background:url(https://1.bp.blogspot.com/-khOGIwGfOMI/X-HNu1KFwiI/AAAAAAAADiQ/j1iYB5m9mLMgEjLdG9uRFvPBgVu5YkAPQCLcBGAsYHQ/s0/a0e8a2acd6d7d8fe82c81c20efe454d2.jpg);background-size:cover;width:100%;height:35%;position:absolute;top:0;left:0;
+}
+.cover-bg{
+background:white;width:90%;position:relative;min-height:175px;padding-bottom:60px;top:130px;border-radius:20px;left:0;margin:0 auto;box-shadow:0 10px 50px 0 rgb(30 30 30 / 4%)}
+.cc-bg{
+background:#ffffff;width:110px;height:110px;position:absolute;top:75px;border-radius:50%;left:50%;z-index:99;margin-left:-55px}
+.cbb{
+background:white;width:90%;position:relative;min-height:130px;padding-bottom:60px;top:130px;border-radius:20px;left:0;margin:0 auto;box-shadow:0 10px 50px 0 rgb(30 30 30 / 4%);
+}
+.cc-pp{
+    width:100px;height:100px;position:absolute;top:3.5%;border-radius:50%;left:50%;z-index:999;margin-left:-50px;background-size:cover}
+.separate{
+    display:block;top:45px;position:relative;
+}
+.separate:before{
+	content:'\2027 \2027 \2027';display:block;color:#505050;text-align:center;font-size:38px;font-style:normal;letter-spacing:0.3em;text-indent:0.3em;clear:both}
+.nama{
+	top:65px;position:relative;font-size:18px;font-family:'Righteous',cursive;text-align:center;
+}
+.desc{
+font-size:12.5px;position:relative;color:#505050;margin:0 20px 0 20px;font-family:'Righteous',cursive;top:35px;font-weight:400;letter-spacing:3px;
+}
+.frame{
+	display:flex;flex-direction:row;justify-content:space-around;align-items:center;height:36px;width:94%;margin:0 auto;bottom:-55px;position:relative;transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);border-radius:10px;
+}
+.btn{
+    height:40px;width:40px;border-radius:20px;background:url(https://1.bp.blogspot.com/-khOGIwGfOMI/X-HNu1KFwiI/AAAAAAAADiQ/j1iYB5m9mLMgEjLdG9uRFvPBgVu5YkAPQCLcBGAsYHQ/s0/a0e8a2a….jpg);background-size:cover;display:flex;flex-direction:column;justify-content:center;align-items:center;
+}
+.btn1{
+    height:0;width:100px;border-radius:20px;background:url(https://1.bp.blogspot.com/-khOGIwGfOMI/X-HNu1KFwiI/AAAAAAAADiQ/j1iYB5m9mLMgEjLdG9uRFvPBgVu5YkAPQCLcBGAsYHQ/s0/a0e8a2a&#8230;.jpg);background-size:cover;display:flex;font-family:'Righteous',cursive;flex-direction:column;justify-content:center;align-items:center;padding:20px 0 20px 0;text-align:center;color:white;font-size:11px;bottom:35px;left:35px}
+.lainnya{
+font-size:13px;color:#191919;position:absolute;top:20px;left:20px;font-family:'Righteous',cursive}
+.framee{
+width:95%;top:60px;flex-wrap:nowrap;justify-content:flex-start;display:flex;position:relative;align-content:flex-start;margin:30px 0;border-radius:15px;overflow-x:auto;overflow-y:hidden}
+.gbr{
+height:100px;display:block;width:100px;flex:0 0 auto;border-radius:15px;position:relative;margin:0 10px 0 10px;left:5px;background:url(https://1.bp.blogspot.com/-0KR9BuVS51Y/X-IUqseG_jI/AAAAAAAADic/8AhZHuH2NWILGg9LQK__iIqJSBodG9JJQCLcBGAsYHQ/s0/gt.jpg);background-size:cover}
+.gbr1{
+height:100px;display:block;width:100px;flex:0 0 auto;border-radius:15px;position:relative;margin:0 10px 0 10px;left:5px;background:url(https://1.bp.blogspot.com/-lSmcZfJEPUg/X-IUq_Z-U1I/AAAAAAAADik/XRu6KYUZeqoB0jV65KRIRJJoE-OBURu6QCLcBGAsYHQ/s0/filter.jpg);background-size:cover}
+.gbr2{
+height:100px;display:block;width:100px;flex:0 0 auto;border-radius:15px;position:relative;margin:0 10px 0 10px;left:5px;background:url(https://1.bp.blogspot.com/-HNvWKHiQTJ8/X-IUq9tn8RI/AAAAAAAADig/Gr0-P0rEqr4z8-29uztNONgBs6gsU_c0QCLcBGAsYHQ/s0/tianid.jpg);background-size:cover}
+.kosong{
+    background:#ffffff00;width:90%;position:relative;min-height:5%;padding-bottom:60px;top:140px;border-radius:5%;left:0;margin:0 auto}
+.cv{
+    position:fixed;font-family:'Righteous',cursive;bottom:0;left:0;color:#eee;background:url(https://1.bp.blogspot.com/-khOGIwGfOMI/X-HNu1KFwiI/AAAAAAAADiQ/j1iYB5m9mLMgEjLdG9uRFvPBgVu5YkAPQCLcBGAsYHQ/s0/a0e8a2a….jpg);font-size:20px;width:100%;background-size:cover;display:flex;justify-content:center;align-items:center;box-shadow:0 10px 50px 0 rgb(30 30 30 / 4%);height:55px;border-radius:40px 40px 0 0}
+                  
+                  ]]></b:skin>
+  
+  &lt;!--<head/>--&gt;&lt;/head&gt;
+    <body>
+    <b:section class='hello' id='hello'/>
+ <div class='bg'/>
+       <div class='cc-bg'><img class='cc-pp' src='//3.bp.blogspot.com/-sPUrrMYAUeE/X9uIpgjj_8I/AAAAAAAADfE/Bf7O-dCR9uwoN_ZOwUVSEOsjYIDMyDfPgCK4BGAYYCw/s113-pf/111.jpg'/> </div>
+ <div class='cover-bg'>
+   
+   	<div class='nama'><data:blog.title/></div>
+   	<div class='separate'/>
+   	<div class='desc'>Umur 19 Tahun, sangat antusias dengan segala hal yang berbau editing photo/video</div>
+   	<div class='frame'>
+      	<a class='btn1' href='https://www.tiian.id/'>Kunjungi Blog</a>
+		<a class='btn' href='https://www.facebook.com/tiianprb' rel='nofollow noopener' target='_blank' title='facebook'>
+		<svg style='width: 20px;height: 20px;fill: #fff;' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path d='M24,3H8A5,5,0,0,0,3,8V24a5,5,0,0,0,5,5H24a5,5,0,0,0,5-5V8A5,5,0,0,0,24,3Zm3,21a3,3,0,0,1-3,3H17V18h4a1,1,0,0,0,0-2H17V14a2,2,0,0,1,2-2h2a1,1,0,0,0,0-2H19a4,4,0,0,0-4,4v2H12a1,1,0,0,0,0,2h3v9H8a3,3,0,0,1-3-3V8A3,3,0,0,1,8,5H24a3,3,0,0,1,3,3Z'/></svg>
+		</a>
+		<a class='btn' href='https://www.twitter.com/tiianprb' rel='nofollow noopener' target='_blank' title='twitter'>
+		<svg style='width: 20px;height: 20px;fill: #fff;' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path d='M13.35,28A13.66,13.66,0,0,1,2.18,22.16a1,1,0,0,1,.69-1.56l2.84-.39A12,12,0,0,1,5.44,4.35a1,1,0,0,1,1.7.31,9.87,9.87,0,0,0,5.33,5.68,7.39,7.39,0,0,1,7.24-6.15,7.29,7.29,0,0,1,5.88,3H29a1,1,0,0,1,.9.56,1,1,0,0,1-.11,1.06L27,12.27c0,.14,0,.28-.05.41a12.46,12.46,0,0,1,.09,1.43A13.82,13.82,0,0,1,13.35,28ZM4.9,22.34A11.63,11.63,0,0,0,13.35,26,11.82,11.82,0,0,0,25.07,14.11,11.42,11.42,0,0,0,25,12.77a1.11,1.11,0,0,1,0-.26c0-.22.05-.43.06-.65a1,1,0,0,1,.22-.58l1.67-2.11H25.06a1,1,0,0,1-.85-.47,5.3,5.3,0,0,0-4.5-2.51,5.41,5.41,0,0,0-5.36,5.45,1.07,1.07,0,0,1-.4.83,1,1,0,0,1-.87.2A11.83,11.83,0,0,1,6,7,10,10,0,0,0,8.57,20.12a1,1,0,0,1,.37,1.05,1,1,0,0,1-.83.74Z'/></svg>
+		</a>
+		<a class='btn' href='https://www.instagram.com/tiianprb' rel='nofollow noopener' target='_blank' title='Instagram'>
+		<svg style='width: 20px;height: 20px;fill: #fff;' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><g><path d='M22,3H10a7,7,0,0,0-7,7V22a7,7,0,0,0,7,7H22a7,7,0,0,0,7-7V10A7,7,0,0,0,22,3Zm5,19a5,5,0,0,1-5,5H10a5,5,0,0,1-5-5V10a5,5,0,0,1,5-5H22a5,5,0,0,1,5,5Z'/><path class='svg-c' d='M16,9.5A6.5,6.5,0,1,0,22.5,16,6.51,6.51,0,0,0,16,9.5Zm0,11A4.5,4.5,0,1,1,20.5,16,4.51,4.51,0,0,1,16,20.5Z'/><circle class='svg-c' cx='23' cy='9' r='1'/></g></svg>
+		</a>
+	</div>
+ </div>
+
+     <div class='cbb'>
+        <div class='lainnya'>Lihat Lainnya</div>
+    	<div class='framee'>
+		<a class='gbr' href='https://gallery.tiian.id/' rel='nofollow noopener' target='_blank' title='Gallery Tian'/>
+		<a class='gbr1' href='https://filter.tiian.id/' rel='nofollow noopener' target='_blank' title='Filter Tian'/>
+		<a class='gbr2' href='https://www.tiian.id/' rel='nofollow noopener' target='_blank' title='Tian ID'/>
+		</div>
+	</div>   
+   <div class='kosong'/>
+      <a class='cv' href='https://l.tiian.id/cv'>Download CV</a>
+ <script type='text/javascript'>
+var uri = window.location.toString();if (uri.indexOf(&quot;?m=1&quot;,&quot;?m=1&quot;) &gt; 0) {var clean_uri = uri.substring(0, uri.indexOf(&quot;?m=1&quot;));window.history.replaceState({}, document.title, clean_uri);}
+</script>     
+ <script> //<![CDATA[
+         if (screen.width >= 800) {
+    window.location = "https://about.tiian.id";
+  }
+//]]> </script>
+    </body>
+</html>
